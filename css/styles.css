@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: Lexend Mega;
-    background-color: black;
+    background-color:#2b2b2a;
     color: white;
 }
 
@@ -71,4 +71,18 @@ hr{
 .navMenu li:hover{
 	text-decoration: none;
 	border-bottom: 2px solid #ffd700;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 410px;
+    padding: 20px;
+    margin-bottom: 110px;
+    color: #ebeae8;
+}
+
+#main-doc header {
+	text-align: left;
+	font-weight: 900;
+	font-style: bold; 
 }

@@ -17,6 +17,7 @@ body {
 header {
     font-size: larger;
     letter-spacing: .2em;
+    text-align: center;
 }
 
 
@@ -31,10 +32,13 @@ a:active {
 
 .sideBar {
     position: fixed;
-    width: 25%;
     height: 100vh;
     background: #595c5a;
     font-size: 0.90em;
+    top: 0;
+    left: 0;
+    border-right: solid;
+    border-color: gold;
 }
 
 #navBar {
@@ -54,6 +58,17 @@ ul.navMenu {
     padding-top: 50px;
 }
 
-.navMenu {
+hr{
+	border-top: 1px solid #ffd700;
+}
+
+.navMenu li{
     list-style: none;
+    /*text-decoration: none;*/
+	border-bottom: 2px solid #595c5a;
+}
+
+.navMenu li:hover{
+	text-decoration: none;
+	border-bottom: 2px solid #ffd700;
 }

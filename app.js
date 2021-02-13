@@ -7,7 +7,7 @@ const PORT    = process.env.port || 8080;
 app.set('view engine', 'pug');
 
 //This is view directory configration
-app.set('views', __dirname + '/Views');
+app.set('views', __dirname + '/views');
 
 
 // this is listen to the server and send the port value we choose

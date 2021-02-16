@@ -118,3 +118,13 @@ hr{
     font-weight: 900;
     display: none;
 }
+a {
+    text-decoration: underline wavy gold;
+}
+
+#image-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;   
+}

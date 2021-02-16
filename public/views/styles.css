@@ -63,8 +63,8 @@ a:active {
 
 
   .sideBar{
-        /* position: absolute; */
-    /* height: 95vh; */
+        position: absolute;
+    height: 80vh;
     background: #595c5a;
     font-size: 0.90em;
     top: 0;
@@ -74,22 +74,31 @@ a:active {
     border-color: gold;
     /* padding: 50px; */
     margin: 15px;
-    display: flex;
+    /* display: flex; */
     border-radius: 15px;
     z-index: 1;
-    block-size: 900px;
+    block-size: 600px;
     justify-content: center;
     flex-direction: column;
 }
 
+#navbar{
+    position: relative;
+    margin: 0 15%;
+    text-align: right;
+    top: 50%;
+    transform: translateY(-50%);
+    /* overflow: scroll; */
+    font-weight: bold;
+}
 
-
-
-
-  }
-  #navbar{
-    
-  }
+ul.navMenu {
+    display: flex;
+    flex-direction: column;
+     gap: 0px !important; 
+    padding-bottom: 10px;
+     padding-top: 0px !important; 
+}
 
   #main-doc{
     padding-top: 290px !important;

@@ -15,9 +15,13 @@ body {
 }
 
 header {
-    font-size: larger;
+    font-size: 20px;
     letter-spacing: .2em;
     text-align: center;
+}
+
+section header {
+    font-size: 25px;
 }
 
 
@@ -85,4 +89,32 @@ hr{
 	text-align: left;
 	font-weight: 900;
 	font-style: bold; 
+}
+
+.example{
+    background-color: #595c5a;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.example-gold{
+    background-color: black;
+    padding: 1px;
+    border-radius: 15px;
+    color: gold;
+    padding-left: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.example-gold button{
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: gold;
+    padding-right: 15px;
+    font-weight: 900;
+    display: none;
 }

@@ -4,14 +4,18 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
+.hidden{
 
+}
 
 body {
     font-family: Lexend Mega;
     background-color: #2b2b2a;
     color: white;
+    margin:0;
 }
 
 header {
@@ -53,6 +57,44 @@ a:active {
     top: 50%;
     transform: translateY(-50%);
     font-weight: bold;
+}
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+
+
+  .sideBar{
+        /* position: absolute; */
+    /* height: 95vh; */
+    background: #595c5a;
+    font-size: 0.90em;
+    top: 0;
+    max-height: 275px;
+    /* left: 2px; */
+    border-right: solid;
+    border-color: gold;
+    /* padding: 50px; */
+    margin: 15px;
+    display: flex;
+    border-radius: 15px;
+    z-index: 1;
+    block-size: 900px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+  }
+  #navbar{
+    
+  }
+
+  #main-doc{
+    padding-top: 290px !important;
+    margin-left: 0px !important;
+  }
 }
 
 ul.navMenu {
@@ -131,3 +173,6 @@ a {
     margin-right: auto;
     width: 50%;
 }
+
+
+

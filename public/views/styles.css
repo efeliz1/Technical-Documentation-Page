@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: Lexend Mega;
-    background-color:#2b2b2a;
+    background-color: #2b2b2a;
     color: white;
 }
 
@@ -46,7 +46,7 @@ a:active {
     border-color: gold;
 }
 
-#navBar {
+#navbar {
     position: relative;
     margin: 0 15%;
     text-align: right;
@@ -63,19 +63,19 @@ ul.navMenu {
     padding-top: 50px;
 }
 
-hr{
-	border-top: 1px solid #ffd700;
+hr {
+    border-top: 1px solid #ffd700;
 }
 
-.navMenu li{
+.navMenu li {
     list-style: none;
     /*text-decoration: none;*/
-	border-bottom: 2px solid #595c5a;
+    border-bottom: 2px solid #595c5a;
 }
 
-.navMenu li:hover{
-	text-decoration: none;
-	border-bottom: 2px solid #ffd700;
+.navMenu li:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #ffd700;
 }
 
 #main-doc {
@@ -87,19 +87,19 @@ hr{
 }
 
 #main-doc header {
-	text-align: left;
-	font-weight: 900;
-	font-style: bold; 
+    text-align: left;
+    font-weight: 900;
+    font-style: bold;
 }
 
-.example{
+.example {
     background-color: #595c5a;
     padding: 8px;
     border-radius: 15px;
     margin: 10px;
 }
 
-.example-gold{
+.example-gold {
     background-color: black;
     padding: 1px;
     border-radius: 15px;
@@ -109,8 +109,8 @@ hr{
     justify-content: space-between;
 }
 
-.example-gold button{
-    background-color:transparent;
+.example-gold button {
+    background-color: transparent;
     border: none;
     cursor: pointer;
     overflow: hidden;
@@ -120,13 +120,14 @@ hr{
     font-weight: 900;
     display: none;
 }
+
 a {
     text-decoration: underline wavy gold;
 }
 
-#image-1{
+#image-1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;   
+    width: 50%;
 }
